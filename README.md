@@ -2,6 +2,12 @@
 
 Count CRISPR sgRNAs in Oxford Nanopore (ONT) amplicon reads, **one guide per read**.
 
+- **Source code:** https://github.com/jimmykim014/ont-guide-aligner
+- **DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24355396.svg)](https://doi.org/10.5281/zenodo.24355396) https://doi.org/10.5281/zenodo.24355396
+- **License:** [![license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/jimmykim014/ont-guide-aligner/blob/main/LICENSE)
+- **Requirements:** [![python](https://img.shields.io/badge/python-%E2%89%A53.9-blue)](https://www.python.org/downloads/)
+- **PyPI:** [![PyPI](https://img.shields.io/pypi/v/ont-guide-aligner)](https://pypi.org/project/ont-guide-aligner/)
+
 Tools built for short reads, such as guide-counter, look for the guide at fixed read offsets. On noisy ONT reads this can credit one read to several overlapping guides, or miss guides that indels have moved. ont-guide-aligner works in four steps:
 
 1. It learns the vector sequence on each side of the guide from the first reads of each sample (6 bp each by default).
