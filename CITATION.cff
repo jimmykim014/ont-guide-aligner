@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use ont-guide-aligner, please cite it as below."
+type: software
+title: "ont-guide-aligner"
+abstract: >-
+  Counts CRISPR sgRNAs in Oxford Nanopore amplicon reads, assigning each read to at most one
+  guide by locating the vector flanks on either side of it, with rescue of reads carrying a
+  1 bp insertion or deletion inside the guide.
+authors:
+  - family-names: "Kim"
+    given-names: "Jimmy"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/jimmykim014/ont-guide-aligner"
+keywords:
+  - CRISPR
+  - sgRNA
+  - Oxford Nanopore
+  - screen
+  - counting
+references:
+  - type: software
+    title: "fulcrumgenomics/guide-counter: v0.1.3"
+    authors:
+      - family-names: "Fennell"
+        given-names: "Tim"
+        affiliation: "Fulcrum Genomics"
+      - family-names: "Homer"
+        given-names: "Nils"
+        affiliation: "Fulcrum Genomics"
+    version: "0.1.3"
+    doi: "10.5281/zenodo.6375792"
+    date-released: "2022-03-22"
+    repository-code: "https://github.com/fulcrumgenomics/guide-counter"
+    publisher:
+      name: "Zenodo"
